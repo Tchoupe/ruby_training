@@ -40,7 +40,7 @@ yn = String
 
 while yn != "no"
 	puts("yn? ")
-	tab << gets.chomp
+	tab << $stdin.readline.chomp
 	yn = tab.last
 end
 
